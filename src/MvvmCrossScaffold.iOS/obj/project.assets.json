@@ -1,0 +1,244 @@
+{
+  "version": 3,
+  "targets": {
+    "Xamarin.iOS,Version=v1.0": {
+      "MvvmCross/6.4.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "OpenTK-1.0",
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/MvvmCross.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/MvvmCross.dll": {}
+        }
+      },
+      "MvvmCrossScaffold.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "MvvmCross": "6.4.2"
+        },
+        "compile": {
+          "bin/placeholder/MvvmCrossScaffold.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MvvmCrossScaffold.Core.dll": {}
+        }
+      }
+    },
+    "Xamarin.iOS,Version=v1.0/win": {
+      "MvvmCross/6.4.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "OpenTK-1.0",
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/MvvmCross.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/MvvmCross.dll": {}
+        }
+      },
+      "MvvmCrossScaffold.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "MvvmCross": "6.4.2"
+        },
+        "compile": {
+          "bin/placeholder/MvvmCrossScaffold.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MvvmCrossScaffold.Core.dll": {}
+        }
+      }
+    },
+    "Xamarin.iOS,Version=v1.0/win-x64": {
+      "MvvmCross/6.4.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "OpenTK-1.0",
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/MvvmCross.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/MvvmCross.dll": {}
+        }
+      },
+      "MvvmCrossScaffold.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "MvvmCross": "6.4.2"
+        },
+        "compile": {
+          "bin/placeholder/MvvmCrossScaffold.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MvvmCrossScaffold.Core.dll": {}
+        }
+      }
+    },
+    "Xamarin.iOS,Version=v1.0/win-x86": {
+      "MvvmCross/6.4.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "OpenTK-1.0",
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/MvvmCross.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/MvvmCross.dll": {}
+        }
+      },
+      "MvvmCrossScaffold.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "MvvmCross": "6.4.2"
+        },
+        "compile": {
+          "bin/placeholder/MvvmCrossScaffold.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MvvmCrossScaffold.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MvvmCross/6.4.2": {
+      "sha512": "ttJOEXQE8MFEMlcuJL6Eonzj1QtfhO95qTrQLcdirV+41PgT7se4XqdDWqL263nrl/2i4CATC2qgokh7IV8msA==",
+      "type": "package",
+      "path": "mvvmcross/6.4.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/monoandroid10.0/MvvmCross.dll",
+        "lib/monoandroid10.0/MvvmCross.pdb",
+        "lib/monoandroid10.0/MvvmCross.xml",
+        "lib/monoandroid90/MvvmCross.dll",
+        "lib/monoandroid90/MvvmCross.pdb",
+        "lib/monoandroid90/MvvmCross.xml",
+        "lib/net461/MvvmCross.dll",
+        "lib/net461/MvvmCross.pdb",
+        "lib/net461/MvvmCross.xml",
+        "lib/netcoreapp2.1/MvvmCross.dll",
+        "lib/netcoreapp2.1/MvvmCross.pdb",
+        "lib/netcoreapp2.1/MvvmCross.xml",
+        "lib/netcoreapp3.0/MvvmCross.dll",
+        "lib/netcoreapp3.0/MvvmCross.pdb",
+        "lib/netcoreapp3.0/MvvmCross.xml",
+        "lib/netcoreapp3.1/MvvmCross.dll",
+        "lib/netcoreapp3.1/MvvmCross.pdb",
+        "lib/netcoreapp3.1/MvvmCross.xml",
+        "lib/netstandard2.0/MvvmCross.dll",
+        "lib/netstandard2.0/MvvmCross.pdb",
+        "lib/netstandard2.0/MvvmCross.xml",
+        "lib/tizen40/MvvmCross.dll",
+        "lib/tizen40/MvvmCross.pdb",
+        "lib/tizen40/MvvmCross.xml",
+        "lib/uap10.0.16299/MvvmCross.dll",
+        "lib/uap10.0.16299/MvvmCross.pdb",
+        "lib/uap10.0.16299/MvvmCross.pri",
+        "lib/uap10.0.16299/MvvmCross.xml",
+        "lib/xamarinios10/MvvmCross.dll",
+        "lib/xamarinios10/MvvmCross.pdb",
+        "lib/xamarinios10/MvvmCross.xml",
+        "lib/xamarinmac20/MvvmCross.dll",
+        "lib/xamarinmac20/MvvmCross.pdb",
+        "lib/xamarinmac20/MvvmCross.xml",
+        "lib/xamarintvos10/MvvmCross.dll",
+        "lib/xamarintvos10/MvvmCross.pdb",
+        "lib/xamarintvos10/MvvmCross.xml",
+        "lib/xamarinwatchos10/MvvmCross.dll",
+        "lib/xamarinwatchos10/MvvmCross.pdb",
+        "lib/xamarinwatchos10/MvvmCross.xml",
+        "mvvmcross.6.4.2.nupkg.sha512",
+        "mvvmcross.nuspec",
+        "readme.txt"
+      ]
+    },
+    "MvvmCrossScaffold.Core/1.0.0": {
+      "type": "project",
+      "path": "../MvvmCrossScaffold.Core/MvvmCrossScaffold.Core.csproj",
+      "msbuildProject": "../MvvmCrossScaffold.Core/MvvmCrossScaffold.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "Xamarin.iOS,Version=v1.0": [
+      "MvvmCross >= 6.4.2",
+      "MvvmCrossScaffold.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\pawel.czarnik\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\projekty\\MvvmCrossScaffold\\MvvmCrossScaffold\\src\\MvvmCrossScaffold.iOS\\MvvmCrossScaffold.iOS.csproj",
+      "projectName": "MvvmCrossScaffold.iOS",
+      "projectPath": "C:\\projekty\\MvvmCrossScaffold\\MvvmCrossScaffold\\src\\MvvmCrossScaffold.iOS\\MvvmCrossScaffold.iOS.csproj",
+      "packagesPath": "C:\\Users\\pawel.czarnik\\.nuget\\packages\\",
+      "outputPath": "C:\\projekty\\MvvmCrossScaffold\\MvvmCrossScaffold\\src\\MvvmCrossScaffold.iOS\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\pawel.czarnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "xamarinios10"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "projectReferences": {
+            "C:\\projekty\\MvvmCrossScaffold\\MvvmCrossScaffold\\src\\MvvmCrossScaffold.Core\\MvvmCrossScaffold.Core.csproj": {
+              "projectPath": "C:\\projekty\\MvvmCrossScaffold\\MvvmCrossScaffold\\src\\MvvmCrossScaffold.Core\\MvvmCrossScaffold.Core.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "xamarinios10": {
+        "dependencies": {
+          "MvvmCross": {
+            "target": "Package",
+            "version": "[6.4.2, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

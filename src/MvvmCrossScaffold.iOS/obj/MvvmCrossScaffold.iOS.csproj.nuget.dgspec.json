@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\projekty\\MvvmCrossScaffold\\MvvmCrossScaffold\\src\\MvvmCrossScaffold.iOS\\MvvmCrossScaffold.iOS.csproj": {}
+  },
+  "projects": {
+    "C:\\projekty\\MvvmCrossScaffold\\MvvmCrossScaffold\\src\\MvvmCrossScaffold.Core\\MvvmCrossScaffold.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\projekty\\MvvmCrossScaffold\\MvvmCrossScaffold\\src\\MvvmCrossScaffold.Core\\MvvmCrossScaffold.Core.csproj",
+        "projectName": "MvvmCrossScaffold.Core",
+        "projectPath": "C:\\projekty\\MvvmCrossScaffold\\MvvmCrossScaffold\\src\\MvvmCrossScaffold.Core\\MvvmCrossScaffold.Core.csproj",
+        "packagesPath": "C:\\Users\\pawel.czarnik\\.nuget\\packages\\",
+        "outputPath": "C:\\projekty\\MvvmCrossScaffold\\MvvmCrossScaffold\\src\\MvvmCrossScaffold.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pawel.czarnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "MvvmCross": {
+              "target": "Package",
+              "version": "[6.4.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\projekty\\MvvmCrossScaffold\\MvvmCrossScaffold\\src\\MvvmCrossScaffold.iOS\\MvvmCrossScaffold.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\projekty\\MvvmCrossScaffold\\MvvmCrossScaffold\\src\\MvvmCrossScaffold.iOS\\MvvmCrossScaffold.iOS.csproj",
+        "projectName": "MvvmCrossScaffold.iOS",
+        "projectPath": "C:\\projekty\\MvvmCrossScaffold\\MvvmCrossScaffold\\src\\MvvmCrossScaffold.iOS\\MvvmCrossScaffold.iOS.csproj",
+        "packagesPath": "C:\\Users\\pawel.czarnik\\.nuget\\packages\\",
+        "outputPath": "C:\\projekty\\MvvmCrossScaffold\\MvvmCrossScaffold\\src\\MvvmCrossScaffold.iOS\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pawel.czarnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "C:\\projekty\\MvvmCrossScaffold\\MvvmCrossScaffold\\src\\MvvmCrossScaffold.Core\\MvvmCrossScaffold.Core.csproj": {
+                "projectPath": "C:\\projekty\\MvvmCrossScaffold\\MvvmCrossScaffold\\src\\MvvmCrossScaffold.Core\\MvvmCrossScaffold.Core.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "MvvmCross": {
+              "target": "Package",
+              "version": "[6.4.2, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
